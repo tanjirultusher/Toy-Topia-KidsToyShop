@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import { FaShoppingCart } from "react-icons/fa";
 const Cart = () => {
   const [cart, setCart] = useState([]);
 
@@ -17,9 +17,13 @@ const Cart = () => {
     localStorage.setItem("cart", JSON.stringify(updatedCart));
   };
 
+
   return (
     <div className="min-h-screen bg-gray-100 p-8">
-      <h1 className="text-3xl font-bold mb-6 text-blue-700">🛒 Your Cart</h1>
+      <div className="flex center gap-4 mx-auto">
+        <FaShoppingCart size={28} color="blue" className="cursor-pointer" />
+        <h1 className="text-3xl font-bold mb-6 text-blue-700">Your Cart </h1>
+      </div>
 
       {cart.length === 0 ? (
         <p className="text-gray-700">Your cart is empty.</p>
