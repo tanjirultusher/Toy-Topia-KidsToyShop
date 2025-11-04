@@ -1,16 +1,47 @@
-# React + Vite
+# 🧸 Toy-Topia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Toy-Topia** is a kids' toy selling website where users can explore different toys, view product details.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live URL
+https://gregarious-youtiao-859ddf.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Purpose
+The main purpose of **Toy-Topia** is to provide an easy and enjoyable online shopping experience for kids’ toys.  
+Users can browse popular toys, view details, add them to the cart after logging in.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Key Features
+-  **Home Page:** Displays featured sections and a beautiful slider.  
+-  **Slider Section:** Highlights new and trending toys.  
+-  **Popular Toys:** Shows the most loved toys based on popularity.  
+-  **Login & Register:** Secure user authentication system.  
+-  **Cart System:** Users can add or remove toys to/from the cart.  
+-  **Product Details Page:** Shows complete information about a toy.  
+
+---
+
+##  NPM Packages Used
+Below are the main dependencies used in this project:
+
+```json
+"dependencies": {
+  "@tailwindcss/vite": "^4.1.16",
+  "axios": "^1.13.1",
+  "dotenv": "^17.2.3",
+  "firebase": "^12.5.0",
+  "lucide-react": "^0.548.0",
+  "react": "^19.1.1",
+  "react-dom": "^19.1.1",
+  "react-icons": "^5.5.0",
+  "react-router": "^7.9.5",
+  "react-router-dom": "^7.9.5",
+  "react-toastify": "^11.0.5",
+  "recharts": "^3.3.0",
+  "swiper": "^12.0.3",
+  "tailwindcss": "^4.1.16"
+}
