@@ -17,7 +17,7 @@ function Profile() {
         <div className="mb-8 text-center">
           <h1 className="text-4xl font-bold text-black-400 mb-2">Profile</h1>
           <p className="text-black-300">
-            Manage your gaming profile and preferences
+            Manage your profile and preferences
           </p>
         </div>
 
@@ -39,7 +39,7 @@ function Profile() {
             </div>
             <div>
               <h3 className="text-2xl font-semibold text-black">
-                {user?.displayName || "Gamer"}
+                {user?.displayName || "User"}
               </h3>
               <p className="text-black">{user?.email}</p>
               <div className="flex items-center mt-2">
