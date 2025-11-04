@@ -1,10 +1,10 @@
-# 🧸 Toy-Topia
+# Toy-Topia
 
 **Toy-Topia** is a kids' toy selling website where users can explore different toys, view product details.
 
 ---
 
-## 🌐 Live URL
+## Live URL
 https://gregarious-youtiao-859ddf.netlify.app/
 
 ---
